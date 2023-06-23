@@ -1,0 +1,36 @@
+hr {
+    border: 0.8px solid black;
+}
+
+.divInfo>div:not(.Name) {
+    display: none;
+}
+
+.row ul:nth-child(n+9) {
+    display: none;
+}
+
+.show-more {
+    font-size: 18px;
+    padding: 0.6% 2.2%;
+    position: relative;
+    left: 70.2vw;
+}
+
+.status-film {
+    padding: 1%;
+    font-weight: 520;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    color: rgb(242, 139, 4);
+    text-decoration: none;
+}
+
+.status-film-homepage {
+    padding: 1%;
+    font-weight: 520;
+    font-size: 1.4em;
+    font-family: sans-serif;
+    color: rgb(242, 107, 4);
+    text-decoration: none;
+}

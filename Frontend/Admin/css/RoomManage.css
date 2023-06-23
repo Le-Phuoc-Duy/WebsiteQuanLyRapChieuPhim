@@ -1,0 +1,96 @@
+/* Custom bootstrap */
+.form-select {
+    width: 16vw !important;
+    margin: 2vh 0vh;
+}
+
+.input-group-text {
+    width: 16vw;
+}
+
+.btn {
+    width: auto;
+    height: auto;
+    margin: 0.8vw;
+    line-height: 1px;
+}
+
+.form-control {
+    text-align: left;
+    max-width: 16.4vw;
+}
+
+/* Own CSS */
+.seat-root {
+    background-color: transparent;
+    color: black;
+}
+
+.Double {
+    width: 62px !important;
+    height: 56px;
+    margin-right: 2.1px;
+}
+
+.change-room {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.seat-option,
+.room-option {
+    display: flex;
+    align-items: center;
+    margin-left: 0.3vw;
+}
+
+.name-feature {
+    margin-top: 1.5rem;
+}
+
+.seat-option label,
+.room-option label {
+    width: 16vw;
+}
+
+.divSaveCancel {
+    display: inline-block;
+    text-align: center;
+}
+
+.room-option label {
+    padding-right: 2%;
+}
+
+.btn-save-cancel {
+    width: 7vw !important;
+}
+
+li {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 40px;
+    color: #44464b;
+    cursor: pointer;
+}
+
+.seat-label {
+    color: #ca3939;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.screen {
+    width: 60%;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    background-image: repeating-linear-gradient(50deg, #E3E3E3 0px, #E3E3E3 3px,
+            transparent 3px, transparent 4px, #E3E3E3 0px);
+    color: #0e1d2f;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}

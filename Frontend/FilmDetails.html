@@ -1,0 +1,62 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chi tiết phim</title>
+  <link rel="stylesheet" href="./css/HomePage.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/FilmDetail.css">
+  <link rel="stylesheet" href="./src/bootstrap-5.2.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./src/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/fontawesome.css">
+  <link rel="stylesheet" href="./src/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/brands.css">
+  <link rel="stylesheet" href="./src/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/solid.css">
+
+</head>
+
+<body>
+  <div id="header"></div>
+
+  <!-- FilmDetail -->
+  <div class="container mt-5 d-flex">
+    <img id="imgFilm">
+    <div class="ms-5" id="list-info">
+      <div class="film-info" id="divInfoDirector">
+        <span class="sptxt">Đạo diễn: </span>
+      </div>
+      <div class="film-info" id="divInfoActor">
+        <span class="sptxt">Diễn viên: </span>
+      </div>
+      <div class="film-info" id="divInfoGenre">
+        <span class="sptxt">Thể loại: </span>
+      </div>
+      <div class="film-info" id="divInfoPremiere">
+        <span class="sptxt">Ngày phát hành: </span>
+      </div>
+      <div class="film-info" id="divInfoLength">
+        <span class="sptxt">Thời lượng: </span>
+      </div>
+      <div class="film-info" id="divInfoAgeLimit">
+        <span class="sptxt">Giới hạn tuổi: </span>
+      </div>
+    </div>
+    <div class="ms-auto">
+      <button class="btn btn-danger" onclick="Booking()" id="booking">Đặt vé</button>
+    </div>
+  </div>
+  <div class="container mt-5 text-center">
+    <p id="content-film" class="text-justify"></p>
+  </div>
+  <div class="container mt-5 text-center">
+    <iframe id="trailer" frameborder="0" width="560" height="315" allowfullscreen></iframe>
+  </div>
+  <!-- FilmDetail -->
+
+  <div id="footer"></div>
+</body>
+<script src="./src/jquery/jquery-3.7.0.js"></script>
+<script src="/js/DetailFilm.js"></script>
+<script src="./src/sweeralert/sweetalert.min.js"></script>
+
+</html>

@@ -1,0 +1,11 @@
+.name-feature {
+    margin-top: 1.5rem;
+}
+
+.ui-datepicker-calendar {
+    display: none;
+}
+
+#layoutSidenav_content {
+    background-color: #f8f9fb;
+}
